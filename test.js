@@ -41,7 +41,7 @@ describe(('You are awesome, aren\'t you?'), () => {
     assert.equal(object[property], propertyValue);
   });
 
-  it('createProtoMagicObject', () => {
+  it.only('createProtoMagicObject', () => {
     const magicObj = createProtoMagicObject();
 
     assert.notEqual(typeof magicObj, 'object');
